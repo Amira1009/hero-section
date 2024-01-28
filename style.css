@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.img-aside {
+    width: 300px;
+    height: 850px;
+
+}
+
+
+
+header {
+    display: flex;
+    justify-content: end;
+}
+
+
+hr {
+    width: 250px;
+    margin-top: 70px;
+    margin-right: 120px;
+}
+
+
+
+.nav-header {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: space-around;
+    margin-top: 60px;
+
+
+}
+
+.nav-header a {
+    text-decoration: unset;
+    color: var(--Gray, #828282); ;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.nav-header  .home {
+    color: black ;
+}
+
+
+
+.logo {
+    width: 750px;
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+
+.section-contanier {
+    display: flex;
+}
+
+.four-icon {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 40px;
+}
+
+
+
+.sec-section {
+    display: flex;
+    gap: 150px;
+    margin-top: 80px;
+}
+
+
+.sec-nav {
+    text-decoration: unset;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.sec-nav a {
+    text-decoration: none;
+    color:Gray ;
+
+}
+
+.sec-img {
+    width: 60%;
+    padding-top: 10px;
+    margin-bottom: 130px;
+    height: 240px;
+}
+
+.icon {
+    margin-bottom: 200px;
+    margin-left: 80px;
+}
+
+button {
+    background-color: var(--Black, #333); 
+    color:White ;
+    border: 1px solid black;
+    padding: 22px 70px;
+    margin-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: 450px;
+    font-size: 24px;
+}
+
+
+
+.sec-nav .Photography {
+    color:Black ;
+}
+
+.ellipse {
+    width: 10px;
+    margin-right: 20px;
+}
+
+.ellipse2 {
+    width: 15px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
